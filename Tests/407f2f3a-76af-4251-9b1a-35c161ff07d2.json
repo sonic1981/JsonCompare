@@ -1,0 +1,3498 @@
+{
+  "activeports": [
+    {
+      "portno": 135,
+      "standard": true,
+      "allowed": true,
+      "processid": 716,
+      "processname": "svchost",
+      "processpath": "C:\\Windows\\system32\\svchost.exe"
+    },
+    {
+      "portno": 445,
+      "standard": true,
+      "allowed": true,
+      "processid": 4,
+      "processname": "System",
+      "processpath": "System"
+    },
+    {
+      "portno": 554,
+      "standard": true,
+      "allowed": true,
+      "processid": 2076,
+      "processname": "wmpnetwk",
+      "processpath": "C:\\Program Files\\Windows Media Player\\wmpnetwk.exe"
+    },
+    {
+      "portno": 2869,
+      "standard": true,
+      "allowed": true,
+      "processid": 4,
+      "processname": "System",
+      "processpath": "System"
+    },
+    {
+      "portno": 3389,
+      "standard": true,
+      "allowed": true,
+      "processid": 896,
+      "processname": "svchost",
+      "processpath": "C:\\Windows\\system32\\svchost.exe"
+    },
+    {
+      "portno": 5985,
+      "standard": true,
+      "allowed": true,
+      "processid": 4,
+      "processname": "System",
+      "processpath": "System"
+    },
+    {
+      "portno": 10243,
+      "standard": false,
+      "allowed": true,
+      "processid": 4,
+      "processname": "System",
+      "processpath": "System"
+    },
+    {
+      "portno": 47001,
+      "standard": true,
+      "allowed": true,
+      "processid": 4,
+      "processname": "System",
+      "processpath": "System"
+    },
+    {
+      "portno": 49152,
+      "standard": false,
+      "allowed": true,
+      "processid": 512,
+      "processname": "wininit",
+      "processpath": "C:\\Windows\\system32\\wininit.exe"
+    },
+    {
+      "portno": 49153,
+      "standard": false,
+      "allowed": true,
+      "processid": 808,
+      "processname": "svchost",
+      "processpath": "C:\\Windows\\System32\\svchost.exe"
+    },
+    {
+      "portno": 49154,
+      "standard": false,
+      "allowed": true,
+      "processid": 856,
+      "processname": "svchost",
+      "processpath": "C:\\Windows\\system32\\svchost.exe"
+    },
+    {
+      "portno": 49155,
+      "standard": false,
+      "allowed": true,
+      "processid": 1096,
+      "processname": "spoolsv",
+      "processpath": "C:\\Windows\\System32\\spoolsv.exe"
+    },
+    {
+      "portno": 49156,
+      "standard": false,
+      "allowed": true,
+      "processid": 612,
+      "processname": "lsass",
+      "processpath": "C:\\Windows\\system32\\lsass.exe"
+    },
+    {
+      "portno": 49170,
+      "standard": false,
+      "allowed": true,
+      "processid": 612,
+      "processname": "lsass",
+      "processpath": "C:\\Windows\\system32\\lsass.exe"
+    },
+    {
+      "portno": 49174,
+      "standard": false,
+      "allowed": true,
+      "processid": 604,
+      "processname": "services",
+      "processpath": "services"
+    },
+    {
+      "portno": 49176,
+      "standard": false,
+      "allowed": true,
+      "processid": 2116,
+      "processname": "svchost",
+      "processpath": "C:\\Windows\\system32\\svchost.exe"
+    },
+    {
+      "portno": 139,
+      "standard": true,
+      "allowed": true,
+      "processid": 4,
+      "processname": "System",
+      "processpath": "System"
+    }
+  ],
+  "adminusers": [
+    {
+      "alert": true,
+      "adminMembers": [
+        {
+          "type": "User",
+          "domain": "DEVE2EW81X64",
+          "name": "Administrator",
+          "sid": "S-1-5-21-3913767038-1003750093-4021991811-500",
+          "alert": false
+        },
+        {
+          "type": "User",
+          "domain": "DEVE2EW81X64",
+          "name": "Admin",
+          "sid": "S-1-5-21-3913767038-1003750093-4021991811-1001",
+          "alert": true
+        },
+        {
+          "type": "Group",
+          "domain": "TEST",
+          "name": "Domain Admins",
+          "sid": "S-1-5-21-1109926559-863931392-63829786-512",
+          "alert": false
+        },
+        {
+          "type": "Group",
+          "domain": "LD",
+          "name": "Domain Users",
+          "sid": "S-1-5-21-3930722610-2437293652-3849561480-513",
+          "alert": false
+        },
+        {
+          "type": "Group",
+          "domain": "TEST",
+          "name": "L10N_Users",
+          "sid": "S-1-5-21-1109926559-863931392-63829786-23633",
+          "alert": false
+        },
+        {
+          "type": "Alias",
+          "domain": "TEST",
+          "name": "Local_Admins",
+          "sid": "S-1-5-21-1109926559-863931392-63829786-1155",
+          "alert": false
+        },
+        {
+          "type": "Group",
+          "domain": "AUTO",
+          "name": "Domain Admins",
+          "sid": "S-1-5-21-3931748772-4229795101-3258574183-512",
+          "alert": false
+        },
+        {
+          "type": "Group",
+          "domain": "AUTO",
+          "name": "Local_admins",
+          "sid": "S-1-5-21-3931748772-4229795101-3258574183-1126",
+          "alert": false
+        }
+      ]
+    }
+  ],
+  "adusergroups": [
+    {
+      "groupSid": "S-1-5-21-1109926559-863931392-63829786-513",
+      "distinguishedName": "CN=Domain Users,CN=Users,DC=test,DC=engroot,DC=com",
+      "name": "Domain Users",
+      "sAMAccountName": "Domain Users",
+      "groupType": "security",
+      "groupScope": "global",
+      "commonName": "Domain Users",
+      "description": "All domain users"
+    }
+  ],
+  "antivirus": [
+    {
+      "name": "Windows Defender",
+      "version": 4.1,
+      "versionLong": "4.10.0209.0",
+      "state": "On",
+      "upToDate": true,
+      "timestamp": "Wed, 10 Feb 2021 04:51:22 GMT",
+      "isPrimary": true
+    }
+  ],
+  "applicationerrors": [
+    {
+      "application": "STAgentUpdater.exe",
+      "version": "9.4.34434.0",
+      "exception": "c0000409",
+      "count": 12
+    },
+    {
+      "application": "STAgentUpdater.exe",
+      "version": "9.4.34398.0",
+      "exception": "c0000409",
+      "count": 1
+    }
+  ],
+  "battery": [
+    {
+      "computerInfo": {
+        "manufacturer": "Microsoft Corporation",
+        "model": "Virtual Machine",
+        "assetTag": "0530-8446-5426-8994-2303-7623-50"
+      },
+      "batteries": []
+    }
+  ],
+  "biosversions": {
+    "vendor": "Microsoft corporation",
+    "bios": "Hyper-V UEFI Release v4.0",
+    "majorBiosVersion": 3,
+    "minorBiosVersion": 1,
+    "nodeType": "Virtual (Microsoft Corporation)",
+    "firmwareType": "Uefi"
+  },
+  "bitlocker": [
+    {
+      "status": "none",
+      "drives": [
+        {
+          "driveLetter": "C",
+          "volumeName": "",
+          "protected": false,
+          "unlocked": true,
+          "percentageEncrypted": 0,
+          "size": "39.48 GB",
+          "encrypting": false,
+          "drive": "C:",
+          "status": "OFF"
+        },
+        {
+          "driveLetter": "E",
+          "volumeName": "Disk 2",
+          "protected": false,
+          "unlocked": true,
+          "percentageEncrypted": 0,
+          "size": "4.97 GB",
+          "encrypting": false,
+          "drive": "E:",
+          "status": "OFF"
+        }
+      ],
+      "operatingSystem": "Windows 8.1 Enterprise"
+    }
+  ],
+  "bsod": {
+    "records": [],
+    "osResult": null
+  },
+  "certs": [
+    {
+      "store": "Trusted Root Certification Authorities",
+      "subject": "CN=Microsoft Root Certificate Authority, DC=microsoft, DC=com",
+      "expired": "2021-05-09T23:28:13.000Z",
+      "expiresAfterDays": 82,
+      "hash": "CDD4EEAE6000AC7F40C3802C171E30148030C072"
+    }
+  ],
+  "cpu": [
+    {
+      "processid": 612,
+      "processname": "lsass.exe",
+      "processcpu": 48,
+      "cpuUsage": 56,
+      "startTime": "2021-02-10T04:48:50.534Z",
+      "processPath": "C:\\Windows\\system32\\lsass.exe"
+    }
+  ],
+  "diskencryption": [
+    {
+      "status": "none",
+      "disks": [
+        {
+          "driveLetter": "C",
+          "volumeName": "",
+          "encrypted": false,
+          "provider": "bitlocker"
+        },
+        {
+          "driveLetter": "E",
+          "volumeName": "Disk 2",
+          "encrypted": false,
+          "provider": "bitlocker"
+        }
+      ],
+      "os": {
+        "name": "Windows 8.1 Enterprise",
+        "bitness": 64,
+        "platform": "Win32NT",
+        "servicePack": "",
+        "version": "6.3.9600",
+        "releaseId": 0,
+        "isServer": false
+      }
+    }
+  ],
+  "diskqueuelength": {
+    "instances": [
+      {
+        "averageQueueLength": 0,
+        "busType": 10,
+        "physicalDrive": "1 E:"
+      },
+      {
+        "averageQueueLength": 0.06872632301864127,
+        "busType": 10,
+        "physicalDrive": "0 C:"
+      }
+    ]
+  },
+  "dotnetframework": [
+    {
+      "maxVersion": "4.8 or later",
+      "versions": "4.8 or later, 4.0 Full, 4.0 Client"
+    }
+  ],
+  "drives": [
+    {
+      "name": "C",
+      "volumeLabel": "",
+      "totalSpace": 42394972160,
+      "freeSpace": 25402769408,
+      "percentFreeSpace": 60,
+      "isReady": true
+    },
+    {
+      "name": "E",
+      "volumeLabel": "Disk 2",
+      "totalSpace": 5333053440,
+      "freeSpace": 5294481408,
+      "percentFreeSpace": 99,
+      "isReady": true
+    }
+  ],
+  "failedlogons": [],
+  "firewall": {
+    "enabled": false,
+    "firewallProfiles": [
+      {
+        "firewallProfile": "Domain",
+        "firewallState": false,
+        "setbyPolicy": true
+      }
+    ]
+  },
+  "gpochanges": [],
+  "hyperv": {
+    "isEnabled": false,
+    "operationSucceeded": true,
+    "operationalErrorCategory": "",
+    "operationalErrorDetails": ""
+  },
+  "internetbrowsers": [
+    {
+      "browserName": "Google Chrome",
+      "browserVersion": "88.0.4324.150",
+      "browserLocation": "Per machine"
+    },
+    {
+      "browserName": "Internet Explorer",
+      "browserVersion": "11.00.9600.16384",
+      "browserLocation": "Per machine"
+    }
+  ],
+  "ipconfig": {
+    "hostName": "DevE2eW81x64",
+    "primaryDnsSuffix": "test.engroot.com",
+    "nodeType": "Hybrid",
+    "ipRoutingEnabled": false,
+    "winsProxyEnabled": false,
+    "dnsSuffixSearchListCsv": "test.engroot.com,engroot.com",
+    "interfaceDetails": [
+      {
+        "name": "Ethernet",
+        "id": "{67E2DB26-E258-4A6B-BDDF-E98224846835}",
+        "operationalStatus": "Up",
+        "interfaceType": "Ethernet",
+        "connectionSpecificDnsSuffix": "test.engroot.com",
+        "description": "Microsoft Hyper-V Network Adapter",
+        "physicalAddress": "001DD8B722AE",
+        "dhcpEnabled": true,
+        "autoConfigurationEnabled": true,
+        "ipv6AddressesCsv": "fda7:e6ee:2e09:0:a9a5:246b:ba95:ece1(Preferred),fdfe:9042:c53d:0:a9a5:246b:ba95:ece1(Preferred)",
+        "ipv6TemporaryAddressesCsv": "fda7:e6ee:2e09:0:df4:c0ae:f400:3b8d(Deprecated),fda7:e6ee:2e09:0:317c:45cc:4a21:d08(Deprecated),fda7:e6ee:2e09:0:811e:1771:e524:ffe4(Deprecated),fda7:e6ee:2e09:0:e889:cd89:b646:eb34(Deprecated),fda7:e6ee:2e09:0:f049:5ecc:e861:b854(Deprecated),fda7:e6ee:2e09:0:f07b:9eed:95c7:4f79(Deprecated),fda7:e6ee:2e09:0:f087:d9e8:8749:629a(Preferred),fdfe:9042:c53d:0:df4:c0ae:f400:3b8d(Deprecated),fdfe:9042:c53d:0:317c:45cc:4a21:d08(Deprecated),fdfe:9042:c53d:0:811e:1771:e524:ffe4(Deprecated),fdfe:9042:c53d:0:e889:cd89:b646:eb34(Deprecated),fdfe:9042:c53d:0:f049:5ecc:e861:b854(Deprecated),fdfe:9042:c53d:0:f07b:9eed:95c7:4f79(Deprecated),fdfe:9042:c53d:0:f087:d9e8:8749:629a(Preferred)",
+        "linkLocalIpv6Address": "fe80::a9a5:246b:ba95:ece1%3",
+        "ipv4Address": "10.38.25.201",
+        "ipv4AddressSubnetMask": "255.255.248.0",
+        "leaseObtained": "2021-02-16T04:48:58.000Z",
+        "leaseExpires": "2021-02-19T04:48:58.000Z",
+        "defaultGateway": "10.38.24.1",
+        "dhcpServer": "10.38.24.7",
+        "dhcpv6IAID": 50339288,
+        "dhcpv6ClientDUID": "00-01-00-01-25-02-CF-67-00-1D-D8-B7-22-AE",
+        "dnsServersCsv": "10.38.24.15,10.38.24.16",
+        "netBiosOverTcpip": true
+      },
+      {
+        "name": "isatap.test.engroot.com",
+        "id": "{DAD67AF7-B311-4890-8650-628BE62CDA26}",
+        "operationalStatus": "Down",
+        "interfaceType": "Tunnel",
+        "connectionSpecificDnsSuffix": "test.engroot.com",
+        "description": "Microsoft ISATAP Adapter",
+        "physicalAddress": "00000000000000E0",
+        "dhcpEnabled": false,
+        "autoConfigurationEnabled": false,
+        "ipv6AddressesCsv": null,
+        "ipv6TemporaryAddressesCsv": null,
+        "linkLocalIpv6Address": "fe80::5efe:10.38.25.201%4",
+        "ipv4Address": null,
+        "ipv4AddressSubnetMask": null,
+        "leaseObtained": null,
+        "leaseExpires": null,
+        "defaultGateway": null,
+        "dhcpServer": "",
+        "dhcpv6IAID": "",
+        "dhcpv6ClientDUID": "",
+        "dnsServersCsv": "10.38.24.15,10.38.24.16",
+        "netBiosOverTcpip": false
+      }
+    ]
+  },
+  "memory": [
+    {
+      "totalPhysical": 3220168704,
+      "availablePhysical": 1725767680,
+      "memoryLoad": 46,
+      "highestMemoryProcessId": 3024,
+      "highestMemoryProcessImageName": "WildPulseEngine.Service.exe",
+      "highestMemoryProcessUsage": 11
+    }
+  ],
+  "missingpatches": [
+    {
+      "found": true,
+      "missingPatches": [
+        {
+          "productName": "VLC Media Player 2 (x64)",
+          "isServicePack": false,
+          "region": 0,
+          "patchId": "0002edd0-0000-0000-0000-000000000000",
+          "patchName": "vlc-3.0.7-win64.exe",
+          "qnumber": "QVLC307",
+          "bulletin": "VLC-307",
+          "installState": 3,
+          "installStateNote": null,
+          "severityLevel": "Important",
+          "type": "Security",
+          "publishDate": "2019-06-10T00:00:00.000Z"
+        },
+        {
+          "productName": "VLC Media Player 2 (x64)",
+          "isServicePack": false,
+          "region": 0,
+          "patchId": "00030c63-0000-0000-0000-000000000000",
+          "patchName": "vlc-3.0.8-win64.exe",
+          "qnumber": "QVLC308",
+          "bulletin": "VLC-308",
+          "installState": 3,
+          "installStateNote": null,
+          "severityLevel": "Moderate",
+          "type": "Security",
+          "publishDate": "2020-01-21T00:00:00.000Z"
+        }
+      ]
+    }
+  ],
+  "netstat": {
+    "entries": [
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 135,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 445,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 554,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 2869,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 3389,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 5985,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 10243,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 47001,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 49152,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 49153,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 49154,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 49155,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 49156,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 49170,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 49174,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "0.0.0.0",
+        "localPort": 49176,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "10.38.25.201",
+        "localPort": 139,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 135,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 445,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 554,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 2869,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 3389,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 5985,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 10243,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 47001,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 49152,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 49153,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 49154,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 49155,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 49156,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 49170,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 49174,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "[::]",
+        "localPort": 49176,
+        "remoteAddress": "DEVE2EW81X64",
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": "",
+        "state": "LISTENING"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "10.38.25.201",
+        "localPort": 53274,
+        "remoteAddress": "20.54.161.158",
+        "remoteHostName": null,
+        "remotePort": 8883,
+        "remotePortIanaServiceName": "secure-mqtt",
+        "state": "ESTABLISHED"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "10.38.25.201",
+        "localPort": 56917,
+        "remoteAddress": "13.107.42.18",
+        "remoteHostName": null,
+        "remotePort": 443,
+        "remotePortIanaServiceName": "https",
+        "state": "ESTABLISHED"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "10.38.25.201",
+        "localPort": 56969,
+        "remoteAddress": "10.38.24.15",
+        "remoteHostName": null,
+        "remotePort": 135,
+        "remotePortIanaServiceName": "epmap",
+        "state": "TIME_WAIT"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "10.38.25.201",
+        "localPort": 56970,
+        "remoteAddress": "10.38.24.15",
+        "remoteHostName": null,
+        "remotePort": 49668,
+        "remotePortIanaServiceName": null,
+        "state": "TIME_WAIT"
+      },
+      {
+        "protocol": "TCP",
+        "localAddress": "10.38.25.201",
+        "localPort": 56975,
+        "remoteAddress": "65.55.252.93",
+        "remoteHostName": null,
+        "remotePort": 443,
+        "remotePortIanaServiceName": "https",
+        "state": "SYN_SEND"
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "0.0.0.0",
+        "localPort": 123,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "0.0.0.0",
+        "localPort": 500,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "0.0.0.0",
+        "localPort": 3389,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "0.0.0.0",
+        "localPort": 4500,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "0.0.0.0",
+        "localPort": 5004,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "0.0.0.0",
+        "localPort": 5005,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "0.0.0.0",
+        "localPort": 5355,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "10.38.25.201",
+        "localPort": 137,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "10.38.25.201",
+        "localPort": 138,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "10.38.25.201",
+        "localPort": 1900,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "10.38.25.201",
+        "localPort": 51652,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "127.0.0.1",
+        "localPort": 1900,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "127.0.0.1",
+        "localPort": 50658,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "127.0.0.1",
+        "localPort": 50899,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "127.0.0.1",
+        "localPort": 51653,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "127.0.0.1",
+        "localPort": 53046,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "127.0.0.1",
+        "localPort": 55682,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "127.0.0.1",
+        "localPort": 60403,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "[::]",
+        "localPort": 123,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "[::]",
+        "localPort": 500,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "[::]",
+        "localPort": 3389,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "[::]",
+        "localPort": 4500,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "[::]",
+        "localPort": 5004,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "[::]",
+        "localPort": 5005,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "[::]",
+        "localPort": 5355,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "[::1]",
+        "localPort": 1900,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "[::1]",
+        "localPort": 51651,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "[fe80::a9a5:246b:ba95:ece1%3]",
+        "localPort": 1900,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      },
+      {
+        "protocol": "UDP",
+        "localAddress": "[fe80::a9a5:246b:ba95:ece1%3]",
+        "localPort": 51650,
+        "remoteAddress": null,
+        "remoteHostName": null,
+        "remotePort": 0,
+        "remotePortIanaServiceName": null,
+        "state": null
+      }
+    ]
+  },
+  "networkadapters": [
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fda7:e6ee:2e09:0:a9a5:246b:ba95:ece1",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fdfe:9042:c53d:0:a9a5:246b:ba95:ece1",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fda7:e6ee:2e09:0:df4:c0ae:f400:3b8d",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fda7:e6ee:2e09:0:317c:45cc:4a21:d08",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fda7:e6ee:2e09:0:811e:1771:e524:ffe4",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fda7:e6ee:2e09:0:e889:cd89:b646:eb34",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fda7:e6ee:2e09:0:f049:5ecc:e861:b854",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fda7:e6ee:2e09:0:f07b:9eed:95c7:4f79",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fda7:e6ee:2e09:0:f087:d9e8:8749:629a",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fdfe:9042:c53d:0:df4:c0ae:f400:3b8d",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fdfe:9042:c53d:0:317c:45cc:4a21:d08",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fdfe:9042:c53d:0:811e:1771:e524:ffe4",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fdfe:9042:c53d:0:e889:cd89:b646:eb34",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fdfe:9042:c53d:0:f049:5ecc:e861:b854",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fdfe:9042:c53d:0:f07b:9eed:95c7:4f79",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fdfe:9042:c53d:0:f087:d9e8:8749:629a",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "fe80::a9a5:246b:ba95:ece1%3",
+      "networkName": "LAN:engroot.com"
+    },
+    {
+      "adapterName": "Ethernet",
+      "ipAddress": "10.38.25.201",
+      "networkName": "LAN:engroot.com"
+    }
+  ],
+  "networkdrives": {
+    "error": "User name not specified"
+  },
+  "os": [
+    {
+      "platform": "Win32NT",
+      "displayName": "Windows 8.1 Enterprise",
+      "version": 6.3,
+      "versionAndBuild": "6.3.9600",
+      "servicePack": "",
+      "releaseId": 0,
+      "bitness": 64
+    }
+  ],
+  "patches": [
+    {
+      "found": true,
+      "patches": [
+        {
+          "name": "KB2894856",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-15T00:00:00.000Z"
+        },
+        {
+          "name": "KB2919355",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2920189",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2931358",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2931366",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2932046",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2934018",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2937592",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2938439",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2938772",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2939153",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2949621",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2954879",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2958262",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2958263",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2961072",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2962140",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2965142",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2965500",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2966407",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2967917",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2968599",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2971203",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2973351",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2975061",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2976627",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2976978",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB2977629",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2977765",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB2978002",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2978041",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB2978126",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB2981580",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2987107",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2989647",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB2989930",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB2990967",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB2994290",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB2998527",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB3000483",
+          "version": "",
+          "publisher": "",
+          "installDate": "2019-09-18T00:00:00.000Z"
+        },
+        {
+          "name": "KB3000850",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB3001237",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB3003057",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB3003667",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3004545",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3012235",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3012702",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3013172",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3013531",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-15T00:00:00.000Z"
+        },
+        {
+          "name": "KB3013538",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3013769",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3013791",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3013816",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3014442",
+          "version": "",
+          "publisher": "",
+          "installDate": "2014-11-21T00:00:00.000Z"
+        },
+        {
+          "name": "KB3015696",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3018133",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3019978",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3020370",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-14T00:00:00.000Z"
+        },
+        {
+          "name": "KB3023222",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3024751",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3024755",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3029606",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3030947",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3031044",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3032663",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-15T00:00:00.000Z"
+        },
+        {
+          "name": "KB3033446",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3035126",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3036612",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3037579",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3038002",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3042085",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3044374",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3044673",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3045634",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3045685",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3045717",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3045719",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3045999",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3046017",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3046480",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3046737",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3047254",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3053863",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3054169",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3054256",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3054464",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3055323",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3056347",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3059317",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3060793",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3061493",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3061512",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3062760",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3063843",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3064059",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3071756",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3074228",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3074548",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3076949",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3077715",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3078405",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3080149",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3080800",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-15T00:00:00.000Z"
+        },
+        {
+          "name": "KB3084135",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3084905",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3086255",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3087137",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3091297",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3095701",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3097997",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3098779",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3099834",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3100473",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3102429",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3103616",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3103696",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3103709",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3109103",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3109560",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3109976",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3110329",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3115224",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3121261",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3126030",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3126434",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3126587",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3133690",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3134815",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3137728",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3138378",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3138602",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3138910",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-15T00:00:00.000Z"
+        },
+        {
+          "name": "KB3138962",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3139398",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3139914",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3140219",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3140234",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3145384",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3146604",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3146723",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3146751",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3147071",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3150513",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3155784",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3156059",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3159398",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3161102",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3161949",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3172614",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3172729",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3173424",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3175024",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3178539",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3179574",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3184143",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3185319",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB3187754",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB4054566",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB4462930",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB4470639",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB4471331",
+          "version": "",
+          "publisher": "",
+          "installDate": "2018-12-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB4486105",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-01-16T00:00:00.000Z"
+        },
+        {
+          "name": "KB4502496",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-02-13T00:00:00.000Z"
+        },
+        {
+          "name": "KB4503308",
+          "version": "",
+          "publisher": "",
+          "installDate": "2019-09-08T00:00:00.000Z"
+        },
+        {
+          "name": "KB4504418",
+          "version": "",
+          "publisher": "",
+          "installDate": "2019-09-18T00:00:00.000Z"
+        },
+        {
+          "name": "KB4506996",
+          "version": "",
+          "publisher": "",
+          "installDate": "2019-09-18T00:00:00.000Z"
+        },
+        {
+          "name": "KB4512938",
+          "version": "",
+          "publisher": "",
+          "installDate": "2019-09-18T00:00:00.000Z"
+        },
+        {
+          "name": "KB4514364",
+          "version": "",
+          "publisher": "",
+          "installDate": "2019-09-18T00:00:00.000Z"
+        },
+        {
+          "name": "KB4515853",
+          "version": "",
+          "publisher": "",
+          "installDate": "2019-11-25T00:00:00.000Z"
+        },
+        {
+          "name": "KB4516115",
+          "version": "",
+          "publisher": "",
+          "installDate": "2019-09-18T00:00:00.000Z"
+        },
+        {
+          "name": "KB4521864",
+          "version": "",
+          "publisher": "",
+          "installDate": "2019-10-09T00:00:00.000Z"
+        },
+        {
+          "name": "KB4524445",
+          "version": "",
+          "publisher": "",
+          "installDate": "2019-11-14T00:00:00.000Z"
+        },
+        {
+          "name": "KB4532931",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-01-16T00:00:00.000Z"
+        },
+        {
+          "name": "KB4532940",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-01-17T00:00:00.000Z"
+        },
+        {
+          "name": "KB4533011",
+          "version": "",
+          "publisher": "",
+          "installDate": "2019-12-13T00:00:00.000Z"
+        },
+        {
+          "name": "KB4534134",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-02-13T00:00:00.000Z"
+        },
+        {
+          "name": "KB4535680",
+          "version": "",
+          "publisher": "",
+          "installDate": "2021-01-13T00:00:00.000Z"
+        },
+        {
+          "name": "KB4537759",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-02-13T00:00:00.000Z"
+        },
+        {
+          "name": "KB4540725",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-03-11T00:00:00.000Z"
+        },
+        {
+          "name": "KB4552933",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-05-13T00:00:00.000Z"
+        },
+        {
+          "name": "KB4561600",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-06-11T00:00:00.000Z"
+        },
+        {
+          "name": "KB4562253",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-06-11T00:00:00.000Z"
+        },
+        {
+          "name": "KB4565635",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-07-16T00:00:00.000Z"
+        },
+        {
+          "name": "KB4566425",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-07-16T00:00:00.000Z"
+        },
+        {
+          "name": "KB4569753",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-08-18T00:00:00.000Z"
+        },
+        {
+          "name": "KB4576486",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-09-09T00:00:00.000Z"
+        },
+        {
+          "name": "KB4578013",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-08-20T00:00:00.000Z"
+        },
+        {
+          "name": "KB4578976",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-10-15T00:00:00.000Z"
+        },
+        {
+          "name": "KB4580325",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-10-15T00:00:00.000Z"
+        },
+        {
+          "name": "KB4585212",
+          "version": "",
+          "publisher": "",
+          "installDate": "2020-11-11T00:00:00.000Z"
+        },
+        {
+          "name": "KB4597253",
+          "version": "",
+          "publisher": "",
+          "installDate": "2021-01-13T00:00:00.000Z"
+        },
+        {
+          "name": "KB4601058",
+          "version": "",
+          "publisher": "",
+          "installDate": "2021-02-10T00:00:00.000Z"
+        }
+      ]
+    }
+  ],
+  "processes": [
+    {
+      "found": true,
+      "instances": [
+        {
+          "id": 3024,
+          "name": "WildPulseEngine.Service.exe",
+          "path": "C:\\Program Files\\Ivanti\\Ivanti Cloud Agent\\UNO.WILDPULSE.ENGINE64\\WildPulseEngine.Service.exe",
+          "fileCompany": "Ivanti",
+          "fileVersion": "1.1.817.1",
+          "startTime": "2021-02-12T12:40:09.031Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 1,
+          "memoryUsage": 6,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "WildPulseEngine.Service",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 880,
+          "name": "TrustedInstaller.exe",
+          "path": "C:\\Windows\\servicing\\TrustedInstaller.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-17T12:32:38.651Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Windows Modules Installer",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 348,
+          "name": "smss.exe",
+          "path": "C:\\Windows\\System32\\smss.exe",
+          "fileCompany": "Microsoft",
+          "fileVersion": "-",
+          "startTime": "2021-02-10T04:48:48.012Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "System",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Windows Session Manager",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 1148,
+          "name": "svchost.exe",
+          "path": "C:\\Windows\\System32\\svchost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:48:55.126Z",
+          "exitTime": null,
+          "argument": "-k LocalServiceNoNetwork",
+          "userName": "NT AUTHORITY\\LOCAL SERVICE",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Host Process for Windows Services",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 3016,
+          "name": "Agent.Listener.exe",
+          "path": "C:\\azagent\\A1\\bin\\Agent.Listener.exe",
+          "fileCompany": null,
+          "fileVersion": null,
+          "startTime": "2021-02-10T04:51:17.076Z",
+          "exitTime": null,
+          "argument": "run --startuptype service",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 1,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": null,
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 612,
+          "name": "lsass.exe",
+          "path": "C:\\Windows\\System32\\lsass.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.17415 (winblue_r4.141028-1500)",
+          "startTime": "2021-02-10T04:48:50.534Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Local Security Authority Process",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 788,
+          "name": "SearchIndexer.exe",
+          "path": "C:\\Windows\\System32\\SearchIndexer.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "7.00.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:51:20.076Z",
+          "exitTime": null,
+          "argument": "/Embedding",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 1,
+          "memoryUsage": 1,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Microsoft Windows Search Indexer",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 520,
+          "name": "csrss.exe",
+          "path": "C:\\Windows\\System32\\csrss.exe",
+          "fileCompany": "-",
+          "fileVersion": "-",
+          "startTime": "2021-02-10T04:48:50.378Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "-",
+          "sessionId": 1,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "-",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 716,
+          "name": "svchost.exe",
+          "path": "C:\\Windows\\System32\\svchost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:48:54.548Z",
+          "exitTime": null,
+          "argument": "-k RPCSS",
+          "userName": "NT AUTHORITY\\NETWORK SERVICE",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Host Process for Windows Services",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 604,
+          "name": "services.exe",
+          "path": "C:\\Windows\\System32\\services.exe",
+          "fileCompany": "-",
+          "fileVersion": "-",
+          "startTime": "2021-02-10T04:48:50.519Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "-",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "-",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 2116,
+          "name": "svchost.exe",
+          "path": "C:\\Windows\\System32\\svchost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:49:13.363Z",
+          "exitTime": null,
+          "argument": "-k NetworkServiceNetworkRestricted",
+          "userName": "NT AUTHORITY\\NETWORK SERVICE",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Host Process for Windows Services",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 512,
+          "name": "wininit.exe",
+          "path": "C:\\Windows\\System32\\wininit.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:48:50.378Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Windows Start-Up Application",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 4604,
+          "name": "WmiPrvSE.exe",
+          "path": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "10.0.14409.1005 (rs1_srvoob.161208-1155)",
+          "startTime": "2021-02-17T12:25:24.635Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "NT AUTHORITY\\NETWORK SERVICE",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "WMI Provider Host",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 864,
+          "name": "dwm.exe",
+          "path": "C:\\Windows\\System32\\dwm.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:48:54.736Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "Window Manager\\DWM-1",
+          "sessionId": 1,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Desktop Window Manager",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 740,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:51:17.185Z",
+          "exitTime": null,
+          "argument": 4,
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Console Window Host",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 412,
+          "name": "svchost.exe",
+          "path": "C:\\Windows\\System32\\svchost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:48:54.954Z",
+          "exitTime": null,
+          "argument": "-k LocalSystemNetworkRestricted",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 1,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Host Process for Windows Services",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 856,
+          "name": "svchost.exe",
+          "path": "C:\\Windows\\System32\\svchost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:48:54.720Z",
+          "exitTime": null,
+          "argument": "-k netsvcs",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 1,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Host Process for Windows Services",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 2028,
+          "name": "conhost",
+          "path": "conhost",
+          "fileCompany": "-",
+          "fileVersion": "-",
+          "startTime": null,
+          "exitTime": null,
+          "argument": "",
+          "userName": "-",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "-",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 672,
+          "name": "svchost.exe",
+          "path": "C:\\Windows\\System32\\svchost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:48:54.470Z",
+          "exitTime": null,
+          "argument": "-k DcomLaunch",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Host Process for Windows Services",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 2984,
+          "name": "svchost.exe",
+          "path": "C:\\Windows\\System32\\svchost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:51:16.966Z",
+          "exitTime": null,
+          "argument": "-k LocalServiceAndNoImpersonation",
+          "userName": "NT AUTHORITY\\LOCAL SERVICE",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Host Process for Windows Services",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 1708,
+          "name": "taskhost.exe",
+          "path": "C:\\Windows\\System32\\taskhost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T05:03:55.665Z",
+          "exitTime": null,
+          "argument": "$(Arg0)",
+          "userName": "NT AUTHORITY\\LOCAL SERVICE",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Host Process for Windows Tasks",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 3956,
+          "name": "svchost.exe",
+          "path": "C:\\Windows\\System32\\svchost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-11T03:18:33.681Z",
+          "exitTime": null,
+          "argument": "-k swprv",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Host Process for Windows Services",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 2620,
+          "name": "TiWorker.exe",
+          "path": "C:\\Windows\\WinSxS\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.3.9600.19750_none_fa39f32f9b2d0928\\TiWorker.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.17477 (winblue_r5.141030-1500)",
+          "startTime": "2021-02-17T12:32:38.667Z",
+          "exitTime": null,
+          "argument": "-Embedding",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Windows Modules Installer Worker",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 2352,
+          "name": "VSSVC.exe",
+          "path": "C:\\Windows\\System32\\VSSVC.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:49:14.225Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Microsoft® Volume Shadow Copy Service",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 4016,
+          "name": "IvAppMonSvc.exe",
+          "path": "C:\\Program Files\\Ivanti\\Ivanti Application Monitor\\IvAppMonSvc.exe",
+          "fileCompany": "Ivanti",
+          "fileVersion": "11.0.3.1134",
+          "startTime": "2021-02-12T12:40:10.936Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 1,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Ivanti Application Monitor Service",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 1548,
+          "name": "NisSrv.exe",
+          "path": "C:\\Program Files\\Windows Defender\\NisSrv.exe",
+          "fileCompany": "-",
+          "fileVersion": "-",
+          "startTime": "2021-02-10T04:49:13.238Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "-",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "-",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 2704,
+          "name": "STAgent.exe",
+          "path": "C:\\Program Files\\Ivanti\\Ivanti Cloud Agent\\STAgent.exe",
+          "fileCompany": "Ivanti, Inc.",
+          "fileVersion": "9.4.34447.0",
+          "startTime": "2021-02-11T10:35:12.488Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "NT AUTHORITY\\NETWORK SERVICE",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "ST Agent",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 564,
+          "name": "winlogon.exe",
+          "path": "C:\\Windows\\System32\\winlogon.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:48:50.409Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 1,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Windows Log-on Application",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 2076,
+          "name": "wmpnetwk.exe",
+          "path": "C:\\Program Files\\Windows Media Player\\wmpnetwk.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "12.0.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:51:23.779Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "NT AUTHORITY\\NETWORK SERVICE",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Windows Media Player Network Sharing Service",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 1096,
+          "name": "spoolsv.exe",
+          "path": "C:\\Windows\\System32\\spoolsv.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:48:55.095Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Spooler SubSystem App",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 828,
+          "name": "LogonUI.exe",
+          "path": "C:\\Windows\\System32\\LogonUI.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.17415 (winblue_r4.141028-1500)",
+          "startTime": "2021-02-10T04:48:54.673Z",
+          "exitTime": null,
+          "argument": "/flags:0x0",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 1,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Windows Logon User Interface Host",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 1180,
+          "name": "PatchDownloader",
+          "path": "PatchDownloader",
+          "fileCompany": "-",
+          "fileVersion": "-",
+          "startTime": null,
+          "exitTime": null,
+          "argument": "",
+          "userName": "-",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 1,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "-",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 2156,
+          "name": "svchost.exe",
+          "path": "C:\\Windows\\System32\\svchost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:49:13.410Z",
+          "exitTime": null,
+          "argument": "-k ICService",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Host Process for Windows Services",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 4172,
+          "name": "WmiPrvSE.exe",
+          "path": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "10.0.14409.1005 (rs1_srvoob.161208-1155)",
+          "startTime": "2021-02-17T12:32:39.167Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "NT AUTHORITY\\NETWORK SERVICE",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "WMI Provider Host",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 996,
+          "name": "svchost.exe",
+          "path": "C:\\Windows\\System32\\svchost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:48:54.892Z",
+          "exitTime": null,
+          "argument": "-k LocalService",
+          "userName": "NT AUTHORITY\\LOCAL SERVICE",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Host Process for Windows Services",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 3576,
+          "name": "MpCmdRun.exe",
+          "path": "C:\\Program Files\\Windows Defender\\MpCmdRun.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "4.10.0209.0",
+          "startTime": "2021-02-17T02:58:12.194Z",
+          "exitTime": null,
+          "argument": "SpyNetServiceDss -RestrictPrivileges -AccessKey 7682700B-C673-ACE3-26B8-B0E3A27EFC0A -Reinvoke",
+          "userName": "NT AUTHORITY\\NETWORK SERVICE",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Microsoft Malware Protection Command Line Utility",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 1348,
+          "name": "svchost.exe",
+          "path": "C:\\Windows\\System32\\svchost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:48:56.157Z",
+          "exitTime": null,
+          "argument": "-k utcsvc",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Host Process for Windows Services",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 2948,
+          "name": "AgentService.exe",
+          "path": "C:\\azagent\\A1\\bin\\AgentService.exe",
+          "fileCompany": "",
+          "fileVersion": "1.0.0.0",
+          "startTime": "2021-02-10T04:51:16.654Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "AgentService",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 456,
+          "name": "csrss.exe",
+          "path": "C:\\Windows\\System32\\csrss.exe",
+          "fileCompany": "-",
+          "fileVersion": "-",
+          "startTime": "2021-02-10T04:48:50.087Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "-",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "-",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 1612,
+          "name": "MsMpEng.exe",
+          "path": "C:\\Program Files\\Windows Defender\\MsMpEng.exe",
+          "fileCompany": "-",
+          "fileVersion": "-",
+          "startTime": "2021-02-10T04:48:57.730Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "-",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 5,
+          "memoryUsage": 5,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "-",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 808,
+          "name": "svchost.exe",
+          "path": "C:\\Windows\\System32\\svchost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:48:54.659Z",
+          "exitTime": null,
+          "argument": "-k LocalServiceNetworkRestricted",
+          "userName": "NT AUTHORITY\\LOCAL SERVICE",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Host Process for Windows Services",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 896,
+          "name": "svchost.exe",
+          "path": "C:\\Windows\\System32\\svchost.exe",
+          "fileCompany": "Microsoft Corporation",
+          "fileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+          "startTime": "2021-02-10T04:48:55.001Z",
+          "exitTime": null,
+          "argument": "-k NetworkService",
+          "userName": "NT AUTHORITY\\NETWORK SERVICE",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "Host Process for Windows Services",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 3564,
+          "name": "STDispatch.exe",
+          "path": "C:\\Program Files\\Ivanti\\Ivanti Cloud Agent\\STDispatch.exe",
+          "fileCompany": "Ivanti, Inc.",
+          "fileVersion": "9.4.34447.0",
+          "startTime": "2021-02-11T10:35:12.128Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "NT AUTHORITY\\SYSTEM",
+          "sessionId": 0,
+          "elevated": true,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "ST Dispatcher",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        },
+        {
+          "id": 4,
+          "name": "System",
+          "path": "System",
+          "fileCompany": "-",
+          "fileVersion": "-",
+          "startTime": "2021-02-10T04:48:47.997Z",
+          "exitTime": null,
+          "argument": "",
+          "userName": "System",
+          "sessionId": 0,
+          "elevated": false,
+          "cpuUsage": 0,
+          "memoryUsage": 0,
+          "isSuspended": false,
+          "isOperatingSystem": false,
+          "hasApplicationWindow": false,
+          "description": "-",
+          "networkKbitsPerSec": 0,
+          "ioKBytesPerSec": 0
+        }
+      ]
+    }
+  ],
+  "reboothistory": {
+    "records": []
+  },
+  "securityinfo": {
+    "error": "Only supported on Windows 10"
+  },
+  "sessions": [],
+  "smartdiskstatus": [
+    {
+      "index": 0,
+      "model": "Microsoft Virtual Disk",
+      "type": "Unspecified",
+      "interface": "SCSI",
+      "serialNumber": "-",
+      "status": "OK",
+      "category": "OK"
+    },
+    {
+      "index": 1,
+      "model": "Microsoft Virtual Disk",
+      "type": "Unspecified",
+      "interface": "SCSI",
+      "serialNumber": "-",
+      "status": "OK",
+      "category": "OK"
+    }
+  ],
+  "softwareinstallations": [],
+  "tlsconnections": [
+    {
+      "appImage": "%programfiles%\\windows defender\\mpcmdrun.exe",
+      "appName": "Microsoft Malware Protection",
+      "protocol": "TLS 1.2",
+      "address": "51.132.1.154",
+      "port": 443,
+      "lastSeen": "2021-02-17T10:50:42.000Z"
+    },
+    {
+      "appImage": "%systemroot%\\system32\\svchost.exe",
+      "appName": "Microsoft® Windows® Operating System",
+      "protocol": "TLS 1.2",
+      "address": "13.86.193.192",
+      "port": 443,
+      "lastSeen": "2021-02-17T11:29:40.000Z"
+    },
+    {
+      "appImage": "%systemdrive%\\azagent\\a1\\bin\\agent.listener.exe",
+      "appName": "",
+      "protocol": "TLS 1.2",
+      "address": "13.107.42.18",
+      "port": 443,
+      "lastSeen": "2021-02-17T11:42:28.000Z"
+    },
+    {
+      "appImage": "%systemroot%\\system32\\compattelrunner.exe",
+      "appName": "Microsoft® Windows® Operating System",
+      "protocol": "TLS 1.2",
+      "address": "52.183.24.194",
+      "port": 443,
+      "lastSeen": "2021-02-17T03:40:09.000Z"
+    },
+    {
+      "appImage": "%programfiles(x86)%\\google\\update\\googleupdate.exe",
+      "appName": "Google Update",
+      "protocol": "TLS 1.2",
+      "address": "216.58.210.195",
+      "port": 443,
+      "lastSeen": "2021-02-17T10:26:16.000Z"
+    },
+    {
+      "appImage": "%programfiles%\\ivanti\\ivanti cloud agent\\stagentupdater.exe",
+      "appName": "Ivanti Shared Components",
+      "protocol": "TLS 1.2",
+      "address": "52.233.179.161",
+      "port": 443,
+      "lastSeen": "2021-02-17T11:44:13.000Z"
+    },
+    {
+      "appImage": "%programfiles%\\ivanti\\ivanti cloud agent\\sttelemetryreporter.exe",
+      "appName": "Ivanti Shared Components",
+      "protocol": "TLS 1.2",
+      "address": "51.105.67.161",
+      "port": 443,
+      "lastSeen": "2021-02-17T02:50:14.000Z"
+    },
+    {
+      "appImage": "%programfiles%\\ivanti\\ivanti cloud agent\\uno.wildpulse.engine64\\wildpulseengine.service.exe",
+      "appName": "Pulse",
+      "protocol": "TLS 1.2",
+      "address": "52.178.43.209",
+      "port": 443,
+      "lastSeen": "2021-02-17T04:14:13.000Z"
+    },
+    {
+      "appImage": "%programfiles%\\ivanti\\ivanti cloud agent\\uno.wildpulse.engine64\\sensors\\patch\\patchdownloader.exe",
+      "appName": "Pulse",
+      "protocol": "TLS 1.2",
+      "address": "13.32.219.96",
+      "port": 443,
+      "lastSeen": "2021-02-17T09:14:46.000Z"
+    }
+  ],
+  "uptime": {
+    "userName": "NT AUTHORITY\\SYSTEM",
+    "upTimeMs": 632635359,
+    "fastBootEnabled": true,
+    "osResult": {
+      "deviceOsName": "Windows 8.1 Enterprise",
+      "deviceOsBitness": 64,
+      "deviceOsPlatform": "Win32NT",
+      "deviceOsServicePack": "",
+      "deviceOsVersion": "6.3.9600",
+      "deviceOsReleaseId": 0,
+      "isServer": false
+    },
+    "deviceState": "Logged out",
+    "pendingReboot": false
+  }
+}

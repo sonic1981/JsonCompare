@@ -1,0 +1,19 @@
+{
+  "version": "2.0",
+  "functions": [ "Compare", "Probe", "Get", "RenderOpenApiDocument", "RenderSwaggerDocument", "RenderSwaggerUI" ],
+  "logging": {
+    "logLevel": {
+      "Default": "Information",
+      "System.Net.Http.HttpClient": "Warning"
+    },
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request;Exception;Event"
+      },
+      "snapshotConfiguration": {
+        "isEnabled": false
+      }
+    }
+  }
+}
